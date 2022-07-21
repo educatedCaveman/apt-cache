@@ -3,7 +3,8 @@ version: "3"
 
 services:
   apt_cache:
-    build: .
+    # build: .
+    build: /docker/docker-compose/apt-cache/
     ports:
       - 3142:3142
     volumes:
