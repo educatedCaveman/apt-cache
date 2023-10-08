@@ -5,8 +5,9 @@ services:
   apt_cache:
     # build: .
     # build: /docker/docker-compose/apt-cache/
-    image: sameersbn/apt-cacher-ng
+    image: sameersbn/apt-cacher-ng:3.3.0-20220225
     ports:
       - 3142:3142
     volumes:
       - /docker/docker-compose/apt-cache/cache:/var/cache/apt-cacher-ng
+
