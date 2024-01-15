@@ -1,6 +1,6 @@
 ---
 version: "3"
-
+# this comment is a hack
 services:
   apt_cache:
     # build: .
